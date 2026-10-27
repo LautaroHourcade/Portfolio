@@ -123,6 +123,12 @@ h3 {
   letter-spacing: -0.02em;
 }
 
+.section__description {
+  max-width: 48ch;
+  margin-top: var(--space-2xs);
+  color: var(--color-text-secondary);
+}
+
 .section__placeholder {
   color: var(--color-text-secondary);
 }

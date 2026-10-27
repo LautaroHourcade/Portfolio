@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { translations } from './i18n/translations.js';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
+import Projects from './components/Projects.jsx';
 import Section from './components/Section.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -39,9 +40,7 @@ function App() {
       <Navbar t={t.nav} language={language} onLanguageChange={setLanguage} />
       <main id="main">
         <Hero t={t.hero} />
-        <Section id="work" eyebrow={t.sections.work.eyebrow} title={t.sections.work.title}>
-          <p className="section__placeholder">{t.sections.comingSoon}</p>
-        </Section>
+        <Projects section={t.sections.work} t={t.projects} language={language} />
         <Section id="about" eyebrow={t.sections.about.eyebrow} title={t.sections.about.title}>
           <p className="section__placeholder">{t.sections.comingSoon}</p>
         </Section>

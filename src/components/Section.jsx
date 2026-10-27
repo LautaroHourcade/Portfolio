@@ -1,4 +1,4 @@
-function Section({ id, eyebrow, title, secondary = false, children }) {
+function Section({ id, eyebrow, title, description, secondary = false, children }) {
   const headingId = `${id}-title`;
   const className = secondary ? 'section section--secondary' : 'section';
 
@@ -10,6 +10,7 @@ function Section({ id, eyebrow, title, secondary = false, children }) {
           <h2 id={headingId} className="section__title">
             {title}
           </h2>
+          {description && <p className="section__description">{description}</p>}
         </header>
         {children}
       </div>
