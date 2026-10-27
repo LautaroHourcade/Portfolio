@@ -6,7 +6,7 @@ import Projects from './components/Projects.jsx';
 import About from './components/About.jsx';
 import TechStack from './components/TechStack.jsx';
 import CurrentlyExploring from './components/CurrentlyExploring.jsx';
-import Section from './components/Section.jsx';
+import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 
 const LANGUAGE_STORAGE_KEY = 'portfolio-language';
@@ -47,9 +47,7 @@ function App() {
         <About section={t.sections.about} t={t.about} />
         <TechStack section={t.sections.stack} t={t.stack} />
         <CurrentlyExploring section={t.sections.exploring} items={t.stack.exploring} />
-        <Section id="contact" eyebrow={t.sections.contact.eyebrow} title={t.sections.contact.title}>
-          <p className="section__placeholder">{t.sections.comingSoon}</p>
-        </Section>
+        <Contact section={t.sections.contact} t={t.contact} />
       </main>
       <Footer t={t.footer} />
     </>

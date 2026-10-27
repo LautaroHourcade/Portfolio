@@ -35,8 +35,11 @@ export const translations = {
         title: 'Explorando actualmente',
         description: 'Áreas que estoy profundizando en este momento.',
       },
-      contact: { eyebrow: '04', title: 'Conectemos' },
-      comingSoon: 'Próximamente.',
+      contact: {
+        eyebrow: '04',
+        title: 'Conectemos',
+        description: 'Estoy abierto a nuevas oportunidades, proyectos interesantes y conversaciones.',
+      },
     },
     projects: {
       featured: 'Proyecto destacado',
@@ -72,6 +75,11 @@ export const translations = {
         tools: 'Herramientas',
       },
       exploring: ['React', 'Desarrollo Frontend moderno'],
+    },
+    contact: {
+      cta: 'Contactame',
+      linksLabel: 'Enlaces de contacto',
+      opensInNewTab: 'se abre en una pestaña nueva',
     },
     footer: {
       builtWith: 'Hecho con React · JavaScript · CSS',
@@ -113,8 +121,11 @@ export const translations = {
         title: 'Currently Exploring',
         description: "Areas I'm currently deepening.",
       },
-      contact: { eyebrow: '04', title: "Let's Connect" },
-      comingSoon: 'Coming soon.',
+      contact: {
+        eyebrow: '04',
+        title: "Let's connect",
+        description: "I'm open to new opportunities, interesting projects and conversations.",
+      },
     },
     projects: {
       featured: 'Featured project',
@@ -150,6 +161,11 @@ export const translations = {
         tools: 'Tools',
       },
       exploring: ['React', 'Modern Frontend Development'],
+    },
+    contact: {
+      cta: 'Get in touch',
+      linksLabel: 'Contact links',
+      opensInNewTab: 'opens in a new tab',
     },
     footer: {
       builtWith: 'Built with React · JavaScript · CSS',
