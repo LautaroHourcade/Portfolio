@@ -4,6 +4,8 @@ import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Projects from './components/Projects.jsx';
 import About from './components/About.jsx';
+import TechStack from './components/TechStack.jsx';
+import CurrentlyExploring from './components/CurrentlyExploring.jsx';
 import Section from './components/Section.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -43,17 +45,8 @@ function App() {
         <Hero t={t.hero} />
         <Projects section={t.sections.work} t={t.projects} language={language} />
         <About section={t.sections.about} t={t.about} />
-        <Section id="stack" eyebrow={t.sections.stack.eyebrow} title={t.sections.stack.title}>
-          <p className="section__placeholder">{t.sections.comingSoon}</p>
-        </Section>
-        <Section
-          id="exploring"
-          eyebrow={t.sections.exploring.eyebrow}
-          title={t.sections.exploring.title}
-          secondary
-        >
-          <p className="section__placeholder">{t.sections.comingSoon}</p>
-        </Section>
+        <TechStack section={t.sections.stack} t={t.stack} />
+        <CurrentlyExploring section={t.sections.exploring} items={t.stack.exploring} />
         <Section id="contact" eyebrow={t.sections.contact.eyebrow} title={t.sections.contact.title}>
           <p className="section__placeholder">{t.sections.comingSoon}</p>
         </Section>

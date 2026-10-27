@@ -25,8 +25,16 @@ export const translations = {
         description: 'Una selección de proyectos que he desarrollado.',
       },
       about: { eyebrow: '02', title: 'Sobre mí' },
-      stack: { eyebrow: '03', title: 'Stack' },
-      exploring: { eyebrow: 'Ahora', title: 'Explorando actualmente' },
+      stack: {
+        eyebrow: '03',
+        title: 'Stack',
+        description: 'Tecnologías y herramientas con las que trabajo.',
+      },
+      exploring: {
+        eyebrow: 'Ahora',
+        title: 'Explorando actualmente',
+        description: 'Áreas que estoy profundizando en este momento.',
+      },
       contact: { eyebrow: '04', title: 'Conectemos' },
       comingSoon: 'Próximamente.',
     },
@@ -55,6 +63,15 @@ export const translations = {
         campusLabel: 'Facultad',
         campus: 'Facultad Regional Mar del Plata',
       },
+    },
+    stack: {
+      categories: {
+        frontend: 'Frontend',
+        programming: 'Programación',
+        database: 'Bases de datos',
+        tools: 'Herramientas',
+      },
+      exploring: ['React', 'Desarrollo Frontend moderno'],
     },
     footer: {
       builtWith: 'Hecho con React · JavaScript · CSS',
@@ -86,8 +103,16 @@ export const translations = {
         description: "A selection of projects I've built.",
       },
       about: { eyebrow: '02', title: 'About' },
-      stack: { eyebrow: '03', title: 'Stack' },
-      exploring: { eyebrow: 'Now', title: 'Currently Exploring' },
+      stack: {
+        eyebrow: '03',
+        title: 'Stack',
+        description: 'Technologies and tools I work with.',
+      },
+      exploring: {
+        eyebrow: 'Now',
+        title: 'Currently Exploring',
+        description: "Areas I'm currently deepening.",
+      },
       contact: { eyebrow: '04', title: "Let's Connect" },
       comingSoon: 'Coming soon.',
     },
@@ -116,6 +141,15 @@ export const translations = {
         campusLabel: 'Campus',
         campus: 'Mar del Plata Regional Faculty',
       },
+    },
+    stack: {
+      categories: {
+        frontend: 'Frontend',
+        programming: 'Programming',
+        database: 'Database',
+        tools: 'Tools',
+      },
+      exploring: ['React', 'Modern Frontend Development'],
     },
     footer: {
       builtWith: 'Built with React · JavaScript · CSS',
