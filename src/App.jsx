@@ -3,6 +3,7 @@ import { translations } from './i18n/translations.js';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Projects from './components/Projects.jsx';
+import About from './components/About.jsx';
 import Section from './components/Section.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -41,9 +42,7 @@ function App() {
       <main id="main">
         <Hero t={t.hero} />
         <Projects section={t.sections.work} t={t.projects} language={language} />
-        <Section id="about" eyebrow={t.sections.about.eyebrow} title={t.sections.about.title}>
-          <p className="section__placeholder">{t.sections.comingSoon}</p>
-        </Section>
+        <About section={t.sections.about} t={t.about} />
         <Section id="stack" eyebrow={t.sections.stack.eyebrow} title={t.sections.stack.title}>
           <p className="section__placeholder">{t.sections.comingSoon}</p>
         </Section>

@@ -40,6 +40,22 @@ export const translations = {
       technologiesLabel: 'Tecnologías',
       coverPending: 'Portada en preparación',
     },
+    about: {
+      paragraphs: [
+        'Soy desarrollador de software con formación en programación, programación orientada a objetos y resolución de problemas, conocimientos que desarrollé durante mis estudios en la Universidad Tecnológica Nacional (UTN).',
+        'Actualmente estoy enfocado en el desarrollo web y explorando la programación asistida por inteligencia artificial mediante herramientas como Claude Code. Disfruto transformar ideas en productos funcionales, desde la planificación de su arquitectura hasta su implementación.',
+        'Continúo aprendiendo y desarrollando proyectos propios, con el objetivo de crecer profesionalmente y aportar valor en proyectos reales.',
+      ],
+      education: {
+        title: 'Formación',
+        degreeLabel: 'Título',
+        degree: 'Técnico Universitario en Programación',
+        institutionLabel: 'Institución',
+        institution: 'Universidad Tecnológica Nacional (UTN)',
+        campusLabel: 'Facultad',
+        campus: 'Facultad Regional Mar del Plata',
+      },
+    },
     footer: {
       builtWith: 'Hecho con React · JavaScript · CSS',
     },
@@ -84,6 +100,22 @@ export const translations = {
       opensInNewTab: 'opens in a new tab',
       technologiesLabel: 'Technologies',
       coverPending: 'Cover in progress',
+    },
+    about: {
+      paragraphs: [
+        "I'm a software developer with a background in programming, object-oriented programming, and problem-solving, developed through my studies at the National Technological University (UTN) in Argentina.",
+        "I'm currently focusing on web development and exploring AI-assisted programming through tools like Claude Code. I enjoy turning ideas into functional products, from planning their architecture to bringing them to life.",
+        "I'm continuously learning and building personal projects, aiming to grow as a developer while contributing to real-world projects.",
+      ],
+      education: {
+        title: 'Education',
+        degreeLabel: 'Degree',
+        degree: 'University Technician in Programming',
+        institutionLabel: 'Institution',
+        institution: 'National Technological University (UTN)',
+        campusLabel: 'Campus',
+        campus: 'Mar del Plata Regional Faculty',
+      },
     },
     footer: {
       builtWith: 'Built with React · JavaScript · CSS',

@@ -1,0 +1,105 @@
+.about {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  align-items: start;
+  gap: var(--space-2xl);
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  max-width: 60ch;
+}
+
+.about__lead {
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+  color: var(--color-text-primary);
+}
+
+.about__paragraph {
+  color: var(--color-text-secondary);
+  line-height: 1.75;
+}
+
+/* Education */
+.education-card {
+  padding: var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-surface);
+  transition: border-color var(--transition-base);
+}
+
+.education-card:hover {
+  border-color: var(--color-accent-border);
+}
+
+.education-card__title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-lg);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.education-card__dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  box-shadow: 0 0 0 4px var(--color-accent-soft);
+}
+
+.education-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.education-card__item + .education-card__item {
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.education-card__label {
+  margin-bottom: var(--space-2xs);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+}
+
+.education-card__value {
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.education-card__item:first-child .education-card__value {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 1024px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .education-card {
+    max-width: 36rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    border-radius: var(--radius-md);
+  }
+}
