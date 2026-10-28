@@ -15,7 +15,8 @@ export const translations = {
       role: 'Desarrollador de Software',
       description: 'Construyo experiencias web y productos digitales.',
       primaryCta: 'Ver mis proyectos',
-      secondaryCta: 'GitHub',
+      socialLabel: 'Enlaces de contacto',
+      opensInNewTab: 'se abre en una pestaña nueva',
       photoAlt: 'Fotografía de Lautaro Hourcade',
     },
     sections: {
@@ -82,7 +83,7 @@ export const translations = {
       opensInNewTab: 'se abre en una pestaña nueva',
     },
     footer: {
-      builtWith: 'Hecho con React · JavaScript · CSS',
+      builtWith: 'Desarrollado con React, JavaScript y CSS.',
     },
   },
   en: {
@@ -101,7 +102,8 @@ export const translations = {
       role: 'Software Developer',
       description: 'I build web experiences and digital products.',
       primaryCta: 'View my work',
-      secondaryCta: 'GitHub',
+      socialLabel: 'Contact links',
+      opensInNewTab: 'opens in a new tab',
       photoAlt: 'Photo of Lautaro Hourcade',
     },
     sections: {
@@ -168,7 +170,7 @@ export const translations = {
       opensInNewTab: 'opens in a new tab',
     },
     footer: {
-      builtWith: 'Built with React · JavaScript · CSS',
+      builtWith: 'Built with React, JavaScript and CSS.',
     },
   },
 };

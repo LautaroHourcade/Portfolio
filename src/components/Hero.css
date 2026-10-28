@@ -53,6 +53,22 @@
   gap: var(--space-sm);
 }
 
+.hero__socials {
+  display: flex;
+  gap: var(--space-xs);
+}
+
+.hero__social-link {
+  width: 2.875rem;
+  padding: 0;
+}
+
+.hero__social-link .contact-icon,
+.hero__social-link .contact-icon svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
 .hero__photo {
   justify-self: end;
   width: 100%;
@@ -120,7 +136,7 @@
     border-radius: var(--radius-md);
   }
 
-  .hero__actions .btn {
+  .hero__actions > .btn {
     flex: 1 1 10rem;
   }
 }
